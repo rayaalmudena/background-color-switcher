@@ -11,8 +11,5 @@ function addButtonListener(button) {
 
         // 'e' es el objeto Event. Concretamente , ClickEvent. Tiene una propiedad de nombre 'target', que nos indica el elemento HTML sobre el que se ha producido el evento (en este caso, sonbre quien hemos hecho clic). Dicho elemento, tiene una propiedad 'id' con valor, puesto que su elemento correspondiente HTML <button>, también lo tiene
         body.style.backgroundColor = e.target.id
-
-        // Una forma alternativa de hacerlo:
-        // body.style.backgroundColor = e.target.style.backgroundColor
     })
 }
